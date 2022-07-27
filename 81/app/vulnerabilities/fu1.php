@@ -34,7 +34,7 @@
         }
 
         $sql = "select * from article where id= ('$id')";
-        if ($conn = mysqli_connect("lnmp_mysql_1", "root", "123456")) {
+        if ($conn = mysqli_connect("127.0.0.1", "root", "")) {
           // echo $sql;
           mysqli_select_db($conn, '2web');
           mysqli_set_charset($conn, 'GBK');

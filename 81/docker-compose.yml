@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pte-lamp:
+    build: .
+    ports:
+      - "81:80"
+      - "3306:3306"

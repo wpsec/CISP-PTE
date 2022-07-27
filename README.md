@@ -3,6 +3,20 @@
 # CISP-PTE
 
 CISP-PTE 考试环境源码
+## docker
+
+```bash
+./start 启动
+./stop 关闭
+```
+
+sql注入
+
+```bash
+docker container exec -it sqlid /bin/bash
+./root/sql.sh
+```
+
 
 ## SQL注入
 
